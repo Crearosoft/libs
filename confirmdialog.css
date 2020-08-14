@@ -1,0 +1,61 @@
+.custom-dialog{
+  font-family: Arial, Helvetica, sans-serif;
+  display:block;
+  font-size:14px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  /* overflow: auto; */ /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.2); /* Black w/ opacity */
+}
+#confirm {
+  display: block;
+  background-color: #f3f5f6;
+  color: #000000;
+  border: 1px solid #aaa;
+  position: fixed;
+  height: 180px;
+  width: 350px;
+  left: 40%;
+  top: 40%;
+  justify-content: center;
+  margin-left: -18%;
+  padding: 25px 20px 10px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 2000px #626161;
+}
+
+.message {
+  margin-top:10px;
+  padding:12px 10px 20px;
+  font-weight:bold;
+  /* margin-bottom: 30px; */
+}
+
+#confirm button {
+  background: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1.5px solid #dadada;
+  color:#ff1c18;
+  font-weight:bold;
+  padding: 10px 30px;
+  outline: none;
+}
+#confirm button:hover {
+  background-color: #FF1C18;
+  color:#eee;
+  border:1.5px solid #FF1C18;
+}
+#confirm button:focus {
+  background-color: #FF1C18;
+  color:#eee;
+  border:2px solid #FF1C18;
+}
+
+
+.d-confirm {
+  margin-left: 20px;
+}
